@@ -9,27 +9,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./src/_images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/_css/reset.css">
+    <link rel="stylesheet" href="./src/_css/style.css">
     <title>Super Mario - O Filme</title>
 </head>
 
 <body>
-    <div>
+    <div class="fundo-video">
         <video class="video" autoplay loop muted>
             <source src="./src/_video/video-mario.mp4" type="video/mp4">
         </video>
     </div>
-    <header>
-        <a href="./src/_images/logo-chapeu-mario.png" alt="Logo composta pelo chapéu do Mario"></a>
+    <header class="cabecalho">
+        <img src="./src/_images/logo-chapeu-mario.png" alt="Logo composta pelo chapéu do Mario"class="logo"></a>
         <nav>
-            <ul>
-                <li>Menu</li>
-                <li>Detalhes</li>
+            <ul class="menu">
+                <li> <a href="#"> Menu </a></li>
+                <li><a href="#"> Detalhes </a></li>
             </ul>
         </nav>
     </header>
     <main class="container">
-        <div id="informacoes">
-            <img src="./src/_images/titulo.png" alt="titulo da página">
+        <div id="descricao">
+            <img src="./src/_images/titulo.png" class="image-titulo" alt="titulo da página">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos tempora aspernatur quam officia, et iure
                 accusantium, voluptatem, quisquam reiciendis suscipit libero harum obcaecati. Reiciendis earum fugit
                 exercitationem perferendis sunt soluta.</p>
